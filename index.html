@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dongle&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Perfil</title>
 </head>
 
@@ -14,63 +23,74 @@
         <nav>
             <ul>
                 <li><a href="#integrantes">Integrantes</a></li>
-                <li><a href="#sobre">Sobre o Projeto</a></li>
+                <li><a href="#atividades">Atividades</a></li>
+                <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a href="#tabela">Tabela de Tarefas</a></li>
             </ul>
         </nav>
     </header>
-
-    <section id="integrantes">
+    <article id="integrantes">
         <h2>Integrantes</h2>
         <ul>
             <li>
-                <div>
-                    <img id="avatar" src="./assets/avatar.jpg" alt="foto do integrante">
-                    <div id="descricao">
-                        <div>
-                        <p><strong>Nome: </strong> Wesllei Brito</p>
-                        <p><strong>Função:</strong>  Desenvolvedor Frontend</p>
-                    </div>
-                    <h4>
-                        Gosto de desenvolver e aprender novas tecnologias.
-                    </h4>
-                    <ul id="redes-sociais">
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Linkedin</a></li>
-                        <li><a href="#">GitHub</a></li>
-                    </ul>
-                    </div>
-                    
-                </div>
+                <h3>Wesllei Brito</h3>
+                <img id="avatar" src="./assets/avatar.jpg" alt="foto do integrante">
+                <h4>Desenvolvedor Full Stack</h4>
+                <h5>Gosto de desenvolver e aprender novas tecnologias.</h5>
+                <ul id="redes-sociais">
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="./assets/linkedin.png" alt="linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="./assets/github.png" alt="github">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="./assets/instagram.png" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="./assets/whatsapp.png" alt="whatsapp">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="./assets/youtube.png" alt="youtube">
+                        </a>
+                    </li>
+                </ul>
             </li>
-
         </ul>
-
+    </article>
+    <section id="atividades">
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>RU</th>
+                    <th>Tarefa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">Wesllei Brito</td>
+                    <td rowspan="3">4913249</td>
+                    <td>Resolveu as atividades 1</td>
+                </tr>
+                <tr>
+                    <td>Resolveu as atividade da lista 1</td>
+                </tr>
+                <tr>
+                    <td>Desenvolvimento de toda página de perfil</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
-
-    <table id="tabela" border="1" cellpadding="10" cellspacing="0">
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>RU</th>
-                <th>Tarefa</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="3">Wesllei Brito</td>
-                <td rowspan="3">4913249</td>
-                <td>Resolveu as atividade 1</td>
-            </tr>
-            <tr>
-                <td>Resolveu as atividade da lista 1</td>
-            </tr>
-            <tr>
-                <td>Desenvolvimento de toda página de perfil</td>
-            </tr>
-        </tbody>
-    </table>
     <section id="sobre">
         <h2>Sobre o Projeto</h2>
 
@@ -118,12 +138,11 @@
             <li><strong>Codepen / GitHub Pages</strong> – Hospedagem e compartilhamento da página web.</li>
         </ul>
     </section>
-
-
     <footer id="contato">
         <h2>Contato</h2>
+        <a href="https://www.flaticon.com/br/autores/riajulislam" title="emblema social do twitter ícones">Todos os
+            ícones de redes sociais do projeto foram criados por <strong>riajulislam - Flaticon</strong></a>
     </footer>
-
 </body>
 
 </html>
